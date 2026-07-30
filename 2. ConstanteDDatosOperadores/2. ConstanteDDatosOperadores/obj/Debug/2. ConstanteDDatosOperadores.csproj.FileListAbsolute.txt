@@ -1,0 +1,7 @@
+C:\Users\B09S104est\Desktop\Paloma\FundamentosProgramacionMJ12PalomaPulido\2. ConstanteDDatosOperadores\2. ConstanteDDatosOperadores\bin\Debug\_2.ConstanteDDatosOperadores.exe.config
+C:\Users\B09S104est\Desktop\Paloma\FundamentosProgramacionMJ12PalomaPulido\2. ConstanteDDatosOperadores\2. ConstanteDDatosOperadores\bin\Debug\_2.ConstanteDDatosOperadores.exe
+C:\Users\B09S104est\Desktop\Paloma\FundamentosProgramacionMJ12PalomaPulido\2. ConstanteDDatosOperadores\2. ConstanteDDatosOperadores\bin\Debug\_2.ConstanteDDatosOperadores.pdb
+C:\Users\B09S104est\Desktop\Paloma\FundamentosProgramacionMJ12PalomaPulido\2. ConstanteDDatosOperadores\2. ConstanteDDatosOperadores\obj\Debug\2. ConstanteDDatosOperadores.csproj.AssemblyReference.cache
+C:\Users\B09S104est\Desktop\Paloma\FundamentosProgramacionMJ12PalomaPulido\2. ConstanteDDatosOperadores\2. ConstanteDDatosOperadores\obj\Debug\2. ConstanteDDatosOperadores.csproj.CoreCompileInputs.cache
+C:\Users\B09S104est\Desktop\Paloma\FundamentosProgramacionMJ12PalomaPulido\2. ConstanteDDatosOperadores\2. ConstanteDDatosOperadores\obj\Debug\_2.ConstanteDDatosOperadores.exe
+C:\Users\B09S104est\Desktop\Paloma\FundamentosProgramacionMJ12PalomaPulido\2. ConstanteDDatosOperadores\2. ConstanteDDatosOperadores\obj\Debug\_2.ConstanteDDatosOperadores.pdb
