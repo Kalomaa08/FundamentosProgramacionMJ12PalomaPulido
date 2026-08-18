@@ -1,44 +1,48 @@
 ﻿using System;
 
 
-namespace _6.CondicionalesMultiples
+namespace _5.CondicionalesAnidados
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //Condicionales Múltiples
-            // Crear un algoritmo que muestre por pantalla un menú con 5 opciones, y según la opción elegida del menú, muestre un mensaje por pantalla donde se muestre la opción elegida, en casp de que se selccione una opción que no está en el menú mostrar un mensaje de error.
-
-            int respuesta = 0;
-            Console.WriteLine("--------Menú--------");
-            Console.WriteLine("1.Opción 1       2.Opción 2");
-            Console.WriteLine("3.Opción 3       4.Opción 4");
-            Console.WriteLine("5.Opción 5");
-            Console.WriteLine("------------------");
-            Console.WriteLine("Elija una opción del menú");
-            respuesta = int.Parse(Console.ReadLine());
-
-            switch (respuesta)
+            //Condicionales Anidados 
+            //Diseñar un algoritmo que lea tres números A, B, C y visualice en pantalla el valor más grande. El ususario debe ingresar tres valores diferentes.
+            int num1 = 0;
+            int num2 = 0;
+            int num3 = 0;
+            Console.WriteLine("Por favor ingrese 3 valores diferentes");
+            Console.WriteLine("Ingrese el valor del número 1");
+            num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese el valor del número 2");
+            num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese el valor del número 3");
+            num3 = int.Parse(Console.ReadLine());
+            if (num1 > num2)
             {
-                case 1:
-                    Console.WriteLine("Eligió la opción 1");
-                    break;
-                case 2:
-                    Console.WriteLine("Eligió la opción 2");
-                    break;
-                case 3:
-                    Console.WriteLine("Eligió la opción 3");
-                    break;
-                case 4:
-                    Console.WriteLine("Eligió la opción 4");
-                    break;
-                case 5:
-                    Console.WriteLine("Eligió la opción 5");
-                    break;
-                default:
-                    Console.WriteLine("Elija una opción válida");
-                    break;
+                //Verdadera
+                if (num1 > num2)
+                {
+                    Console.WriteLine("El número 1 es el mayor");
+                }
+                else
+                {
+                    Console.WriteLine("El número 3 es el mayor");
+                }
+            }
+            else
+            {
+                //Falsa
+                if (num2 > num3)
+                {
+                    Console.WriteLine("El número 2 es el mayor");
+                }
+                else
+                {
+                    Console.WriteLine("El número 3 es el mayor");
+                }
+
             }
         }
     }
