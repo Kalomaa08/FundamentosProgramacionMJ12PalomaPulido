@@ -1,0 +1,7 @@
+C:\Users\B09S304est\Desktop\Paloma Pulido\CicloWhileTaller\bin\Debug\CicloWhileTaller.exe.config
+C:\Users\B09S304est\Desktop\Paloma Pulido\CicloWhileTaller\bin\Debug\CicloWhileTaller.exe
+C:\Users\B09S304est\Desktop\Paloma Pulido\CicloWhileTaller\bin\Debug\CicloWhileTaller.pdb
+C:\Users\B09S304est\Desktop\Paloma Pulido\CicloWhileTaller\obj\Debug\CicloWhileTaller.csproj.AssemblyReference.cache
+C:\Users\B09S304est\Desktop\Paloma Pulido\CicloWhileTaller\obj\Debug\CicloWhileTaller.csproj.CoreCompileInputs.cache
+C:\Users\B09S304est\Desktop\Paloma Pulido\CicloWhileTaller\obj\Debug\CicloWhileTaller.exe
+C:\Users\B09S304est\Desktop\Paloma Pulido\CicloWhileTaller\obj\Debug\CicloWhileTaller.pdb
