@@ -1,0 +1,7 @@
+C:\Users\B09S104est\Desktop\Paloma\Parcial2ciclos\bin\Debug\Parcial2ciclos.exe.config
+C:\Users\B09S104est\Desktop\Paloma\Parcial2ciclos\bin\Debug\Parcial2ciclos.exe
+C:\Users\B09S104est\Desktop\Paloma\Parcial2ciclos\bin\Debug\Parcial2ciclos.pdb
+C:\Users\B09S104est\Desktop\Paloma\Parcial2ciclos\obj\Debug\Parcial2ciclos.csproj.AssemblyReference.cache
+C:\Users\B09S104est\Desktop\Paloma\Parcial2ciclos\obj\Debug\Parcial2ciclos.csproj.CoreCompileInputs.cache
+C:\Users\B09S104est\Desktop\Paloma\Parcial2ciclos\obj\Debug\Parcial2ciclos.exe
+C:\Users\B09S104est\Desktop\Paloma\Parcial2ciclos\obj\Debug\Parcial2ciclos.pdb
