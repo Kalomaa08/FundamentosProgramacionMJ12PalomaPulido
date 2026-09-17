@@ -1,0 +1,7 @@
+C:\Users\B09S104est\Desktop\Paloma\TallerDeVectores\obj\Debug\TallerDeVectores.csproj.AssemblyReference.cache
+C:\Users\B09S104est\Desktop\Paloma\TallerDeVectores\obj\Debug\TallerDeVectores.csproj.CoreCompileInputs.cache
+C:\Users\B09S104est\Desktop\Paloma\TallerDeVectores\bin\Debug\TallerDeVectores.exe.config
+C:\Users\B09S104est\Desktop\Paloma\TallerDeVectores\bin\Debug\TallerDeVectores.exe
+C:\Users\B09S104est\Desktop\Paloma\TallerDeVectores\bin\Debug\TallerDeVectores.pdb
+C:\Users\B09S104est\Desktop\Paloma\TallerDeVectores\obj\Debug\TallerDeVectores.exe
+C:\Users\B09S104est\Desktop\Paloma\TallerDeVectores\obj\Debug\TallerDeVectores.pdb
