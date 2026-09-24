@@ -1,0 +1,7 @@
+C:\Users\B09S104est\Desktop\Paloma\17.ArreglosBidimencionales\bin\Debug\17.ArreglosBidimencionales.exe.config
+C:\Users\B09S104est\Desktop\Paloma\17.ArreglosBidimencionales\bin\Debug\17.ArreglosBidimencionales.exe
+C:\Users\B09S104est\Desktop\Paloma\17.ArreglosBidimencionales\bin\Debug\17.ArreglosBidimencionales.pdb
+C:\Users\B09S104est\Desktop\Paloma\17.ArreglosBidimencionales\obj\Debug\17.ArreglosBidimencionales.csproj.AssemblyReference.cache
+C:\Users\B09S104est\Desktop\Paloma\17.ArreglosBidimencionales\obj\Debug\17.ArreglosBidimencionales.csproj.CoreCompileInputs.cache
+C:\Users\B09S104est\Desktop\Paloma\17.ArreglosBidimencionales\obj\Debug\17.ArreglosBidimencionales.exe
+C:\Users\B09S104est\Desktop\Paloma\17.ArreglosBidimencionales\obj\Debug\17.ArreglosBidimencionales.pdb
