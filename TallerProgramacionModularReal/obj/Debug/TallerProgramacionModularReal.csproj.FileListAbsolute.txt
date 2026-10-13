@@ -1,0 +1,5 @@
+C:\Users\B09S304est\Desktop\Paloma\TallerProgramacionModularReal\obj\Debug\TallerProgramacionModularReal.csproj.AssemblyReference.cache
+C:\Users\B09S304est\Desktop\Paloma\TallerProgramacionModularReal\obj\Debug\_TallerProgramacionModularReal.Program.resources
+C:\Users\B09S304est\Desktop\Paloma\TallerProgramacionModularReal\obj\Debug\TallerProgramacionModularReal.Properties.Resources.resources
+C:\Users\B09S304est\Desktop\Paloma\TallerProgramacionModularReal\obj\Debug\TallerProgramacionModularReal.csproj.GenerateResource.cache
+C:\Users\B09S304est\Desktop\Paloma\TallerProgramacionModularReal\obj\Debug\TallerProgramacionModularReal.csproj.CoreCompileInputs.cache
