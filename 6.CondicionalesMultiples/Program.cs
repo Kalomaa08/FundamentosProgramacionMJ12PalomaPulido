@@ -30,10 +30,10 @@ namespace _6.CondicionalesMultiples
                     Console.WriteLine("Eligió la opción 3");
                     break;
                 case 4:
-                    Console.WriteLine("Eligió la opción 5");
+                    Console.WriteLine("Eligió la opción 4");
                     break;
                 case 5:
-                    Console.WriteLine("Eligió la opción 1");
+                    Console.WriteLine("Eligió la opción 5");
                     break;
                 default:
                     Console.WriteLine("Elija una opción valida");
