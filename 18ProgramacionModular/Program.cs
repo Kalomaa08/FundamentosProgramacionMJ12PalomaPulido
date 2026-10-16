@@ -31,7 +31,7 @@ namespace _18ProgramacionModular
         {
             int añoNacimiento = 2008;
             int añoActual = 2026;
-            int edad= añoNacimiento - añoActual;
+            int edad= añoActual - añoNacimiento;
             return edad;
         }
 
