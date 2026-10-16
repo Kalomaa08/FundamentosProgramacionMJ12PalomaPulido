@@ -29,7 +29,7 @@ namespace _4_CondicionalSimpleDoble
             Sueldo = Convert.ToSingle(Console.ReadLine());
             Console.WriteLine("Ingrese Nombre");
             Nombre = Console.ReadLine();
-            if (Sueldo >= 3000) ;
+            if (Sueldo >= 3000) 
             Console.WriteLine("Usted"+Nombre+ "Pague Impuestos");*/
 
             byte edad = 0;
