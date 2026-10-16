@@ -22,7 +22,7 @@ namespace _3.Operadores
             int dato2 = 4 * 3 / 2;
             int dato3 = 5 / 3 * 2;
             int dato4 = 4 * (5 / 2);
-            int dato5 = 3 - 1 *(4 / 2;
+            int dato5 = 3 - 1 *(4 / 2);
             Console.WriteLine(dato2);
 
             //Operadores Logicos 
