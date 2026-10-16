@@ -38,7 +38,7 @@ namespace TallerCiclos
 
             /*
             
-            // EJERCICIO 2: COMENTADO
+            // EJERCICIO 2: 
             
             Console.WriteLine("\n Ejercicio 2: Divisores de un número");
             Console.WriteLine("Ingrese un número entero positivo:");
@@ -57,7 +57,7 @@ namespace TallerCiclos
 
             /*
             
-            // EJERCICIO 6: COMENTADO
+            // EJERCICIO 6: 
             
             Console.WriteLine("\n Ejercicio 6: Análisis de 40 números");
             int positivos = 0, negativos = 0, neutros = 0;
