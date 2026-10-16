@@ -1,50 +1,84 @@
-﻿using System;
+using System;
 
 namespace TallerCondicionales
 {
     internal class Program
     {
         static void Main(string[] args)
-        /*{
-            int numero1 = 0;
-            int numero2 = 0;
-            int numero3 = 0;
-            Console.WriteLine("Por favor ingrese 3 valores diferentes");
-            Console.WriteLine("Ingrese el valor del número 1");
-            numero1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese el valor del número 2");
-            numero2 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese el valor del número 3");
-            numero3 = int.Parse(Console.ReadLine());
+        {
+            Console.WriteLine(" TALLER DE CONDICIONALES ");
+            Console.WriteLine("Seleccione el ejercicio a ejecutar (1, 2 o 4):");
+            int opcion = int.Parse(Console.ReadLine());
 
-            if (numero1 == numero2 || numero1 == numero3 || numero2 == numero3)
+            if (opcion == 1)
             {
-                Console.WriteLine(" Error, todos los valores tienen que ser diferentes");
-            }
-            else
-            {
-                if (numero1 > numero2 && numero1 > numero3)
+                // Ejercicio 1: Leer tres números, verificar si son diferentes, mostrar el mayor y ordenarlos de menor a mayor
+                Console.WriteLine("\n--- Ejercicio 1: Tres números ---");
+                Console.WriteLine("Ingrese el número 1:");
+                int n1 = int.Parse(Console.ReadLine());
+                Console.WriteLine("Ingrese el número 2:");
+                int n2 = int.Parse(Console.ReadLine());
+                Console.WriteLine("Ingrese el número 3:");
+                int n3 = int.Parse(Console.ReadLine());
+
+                if (n1 == n2 || n1 == n3 || n2 == n3)
                 {
-                    Console.WriteLine("El número 1 es el mayor");
+                    Console.WriteLine("Error: Se deben ingresar números diferentes.");
                 }
                 else
                 {
-                    if (numero2 > numero3)
-                    {
-                        Console.WriteLine("El número 2 es el mayor");
-                    }
-                    else
-                    {
-                        Console.WriteLine("El número 3 es el mayor");
-                    }
+                    int mayor = n1;
+                    if (n2 > mayor) mayor = n2;
+                    if (n3 > mayor) mayor = n3;
+                    Console.WriteLine($"El número mayor es: {mayor}");
+
+                    
+                    if (n1 > n2) { int temp = n1; n1 = n2; n2 = temp; }
+                    if (n1 > n3) { int temp = n1; n1 = n3; n3 = temp; }
+                    if (n2 > n3) { int temp = n2; n2 = n3; n3 = temp; }
+                    Console.WriteLine($"Números ordenados de menor a mayor: {n1}, {n2}, {n3}");
                 }
             }
-        }*/
-        {
-            int municion = 0;
-            int invensible = 0;
-            Console.WriteLine(" el personaje cuenta con municion ? si o no");
-            
+            else if (opcion == 2)
+            {
+                // Ejercicio 2: Disparar si es invencible y la munición aleatoria (1-10) es válida
+                Console.WriteLine("\n--- Ejercicio 2: Disparo del personaje ---");
+                Console.WriteLine("¿El personaje está en estado invencible? (True / False):");
+                bool invencible = bool.Parse(Console.ReadLine());
+
+                Random rnd = new Random();
+                int municion = rnd.Next(1, 11); // Genera entre 1 y 10
+                Console.WriteLine($"Munición generada aleatoriamente: {municion}");
+
+                if (invencible && municion >= 1 && municion <= 10)
+                {
+                    Console.WriteLine("El personaje está disparando");
+                }
+            }
+            else if (opcion == 4)
+            {
+                // Ejercicio 4: Movimiento horizontal según la tecla presionada
+                Console.WriteLine("\n--- Ejercicio 4: Movimiento horizontal ---");
+                Console.WriteLine("Presione una tecla ('d' para derecha, 'i' para izquierda):");
+                char tecla = char.Parse(Console.ReadLine());
+
+                if (tecla == 'd' || tecla == 'D')
+                {
+                    Console.WriteLine("El personaje se mueve hacia la derecha");
+                }
+                else if (tecla == 'i' || tecla == 'I')
+                {
+                    Console.WriteLine("El personaje se mueve hacia la izquierda");
+                }
+                else
+                {
+                    Console.WriteLine("No me puedo mover en otra dirección");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Opción no válida.");
+            }
         }
     }
 }
