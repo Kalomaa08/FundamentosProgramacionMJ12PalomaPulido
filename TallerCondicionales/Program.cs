@@ -56,7 +56,7 @@ namespace TallerCondicionales
 
             /*
             
-            // EJERCICIO 4: COMENTADO
+            // EJERCICIO 4: Cñ
             
             Console.WriteLine("\n Ejercicio 4: Movimiento horizontal");
             Console.WriteLine("Presione una tecla ('d' para derecha, 'i' para izquierda):");
