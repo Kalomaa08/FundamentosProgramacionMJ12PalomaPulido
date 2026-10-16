@@ -1,73 +1,92 @@
-﻿using System;
+using System;
 
-namespace TallerDeVectores
+namespace TallerVectores
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-
-            /*               const int lol= 16; // ejercicio 1
-                            int[] vector = new int[lol];
-
-                            Console.WriteLine("ingrese 15 números");
-
-                            for (int i = 1; i < lol; i++)
-                            {
-                                Console.Write($"Ingrese el número para la posición [{i}]: ");
-                            while (!int.TryParse(Console.ReadLine(), out vector[i]))
-                            {
-                                Console.Write($"  [Error] Entrada inválida. Ingrese un número entero para [{i}]: ");
-                            }
-
-                            }
-
-                            int maximo = vector[0];
-                            int minimo = vector[0];
-
-                            for (int i = 1; i < lol; i++)
-                            {
-                                if (vector[i] > maximo)
-                                {
-                                    maximo = vector[i];
-                                }
-                                if (vector[i] < minimo)
-                                {
-                                    minimo = vector[i];
-                                }
-                            }
-
-                            Console.WriteLine($"Valor máximo: {maximo}");
-                            Console.WriteLine($"Valor mínimo: {minimo}");*/
-
-            //ejercicio 2
             
-                
-                int[] v1 = new int[5];
-                int[] v2 = new int[5];
+            // EJERCICIO 1: 
+            
+            Console.WriteLine("Ejercicio 1: Máximo y Mínimo en Vector[15]");
+            int[] vec = new int[15];
 
-                v1[0] = 10; v2[0] = 10;  
-                v1[1] = 20; v2[1] = 99;  
-                v1[2] = 30; v2[2] = 30;  
-                v1[3] = 40; v2[3] = 40;  
-                v1[4] = 50; v2[4] = 5;   
+            for (int i = 0; i < vec.Length; i++)
+            {
+                Console.WriteLine($"Ingrese el número para la posición {i}:");
+                vec[i] = int.Parse(Console.ReadLine());
+            }
 
-                
-                int totalIguales = 0;
+            int max = vec[0];
+            int min = vec[0];
 
-                for (int i = 0; i < 5; i++)
-                {
-                    if (v1[i] == v2[i])
-                    {
-                        totalIguales++; 
-                    }
-                }
+            for (int i = 1; i < vec.Length; i++)
+            {
+                if (vec[i] > max) max = vec[i];
+                if (vec[i] < min) min = vec[i];
+            }
 
-                
-                Console.WriteLine("Cuántos son iguales en la misma posición: " + totalIguales);
+            Console.WriteLine($"El valor máximo es: {max}");
+            Console.WriteLine($"El valor mínimo es: {min}");
 
-                Console.ReadKey();
-           
+
+            /*
+            
+            // EJERCICIO 3: 
+            
+            Console.WriteLine("\n Ejercicio 3: Promedio y comparación en Vector[20] ");
+            int[] vec3 = new int[20];
+            Random rnd = new Random();
+            int suma = 0;
+
+            for (int i = 0; i < vec3.Length; i++)
+            {
+                vec3[i] = rnd.Next(1, 100);
+                suma += vec3[i];
+            }
+
+            double promedio = (double)suma / vec3.Length;
+            Console.WriteLine($"Promedio aritmético: {promedio}");
+
+            int mayores = 0, menores = 0;
+            for (int i = 0; i < vec3.Length; i++)
+            {
+                if (vec3[i] > promedio) mayores++;
+                else if (vec3[i] < promedio) menores++;
+            }
+
+            Console.WriteLine($"Mayores que el promedio: {mayores}");
+            Console.WriteLine($"Menores que el promedio: {menores}");
+            Console.WriteLine("Vector completo: " + string.Join(", ", vec3));
+            */
+
+
+            /*
+            
+            // EJERCICIO 4: 
+            
+            Console.WriteLine("\n Ejercicio 4: Vector de caracteres invertido ");
+            Console.WriteLine("Ingrese el tamaño del vector:");
+            int tam = int.Parse(Console.ReadLine());
+
+            char[] original = new char[tam];
+            char[] invertido = new char[tam];
+
+            for (int i = 0; i < tam; i++)
+            {
+                Console.WriteLine($"Ingrese el carácter para la posición {i}:");
+                original[i] = char.Parse(Console.ReadLine());
+            }
+
+            for (int i = 0; i < tam; i++)
+            {
+                invertido[i] = original[tam - 1 - i];
+            }
+
+            Console.WriteLine("Vector Original: " + string.Join(" ", original));
+            Console.WriteLine("Vector Invertido: " + string.Join(" ", invertido));
+            */
         }
     }
 }
