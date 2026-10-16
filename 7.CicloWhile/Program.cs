@@ -22,6 +22,25 @@ namespace _7.CicloWhile
 
             // algoritmo ue calcule el factorial de un numero dado por el usuario 
 
+               int numero = 0;
+            int factorial = 1; 
+            int contador = 1;
+
+            Console.WriteLine("Ingrese un número entero positivo para calcular su factorial:");
+            numero = int.Parse(Console.ReadLine());
+            while (contador <= numero)
+            {
+                factorial = factorial * contador;
+                contador++; 
+            }
+
+            Console.WriteLine($"El factorial de {numero} es: {factorial}");
         }
     }
 }
+
+
+
+
+
+        }
