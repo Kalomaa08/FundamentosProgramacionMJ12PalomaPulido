@@ -22,7 +22,7 @@ namespace _5.CondicionalesAnidados
             if (num1 > num2)
             {
                 //Verdadera
-                if (num1 > num2)
+               
                 {
                     Console.WriteLine("El número 1 es el mayor");
                 }
