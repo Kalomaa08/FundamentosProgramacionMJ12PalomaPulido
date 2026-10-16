@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
 namespace _14.ArreglosUnidimensionales
 {
@@ -37,10 +33,32 @@ namespace _14.ArreglosUnidimensionales
                  Console.WriteLine($"{nombres[i]} |");
              }*/
 
-            
+         
+            int inicio = 0;
+            int fin = 0;
 
+            Console.WriteLine("Ingrese el número donde inicia el rango:");
+            inicio = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("Ingrese el número donde termina el rango:");
+            fin = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"\nLos números múltiplos de 5 entre {inicio} y {fin} son:");
+
+            for (int i = inicio; i <= fin; i++)
+            {
+                if (i % 5 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
         }
-
     }
 }
+
+
+
+        
+
+    
+
